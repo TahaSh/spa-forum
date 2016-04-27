@@ -23,9 +23,10 @@ npm install
 php artisan key:generate
 ```
 
-#### 4. Migrate and seed the database
+#### 4. Create, migrate and seed the database
 
 ``` plain
+touch database/database.sqlite
 php artisan migrate
 php artisan db:seed
 ```
@@ -37,3 +38,10 @@ php artisan serve
 ```
 
 Finally, open up `localhost:8000` and enjoy :).
+
+---
+
+*Test user that you can login with:*
+
+Email: foo@example.com
+Password: password
