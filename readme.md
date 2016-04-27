@@ -44,4 +44,5 @@ Finally, open up `localhost:8000` and enjoy :).
 *Test user that you can login with:*
 
 Email: foo@example.com
+
 Password: password
