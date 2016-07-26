@@ -40,7 +40,7 @@ export default {
   },
 
   getUserInfo (token) {
-    token = token || localStorage.getItem('jwt-token');
+    token = token || this.getToken();
     
     if (!token) {
       return false;
