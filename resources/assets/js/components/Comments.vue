@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import Comment from './comment.vue';
+import Comment from './Comment.vue';
 import commentServices from '../services/CommentServices';
 
 export default {
